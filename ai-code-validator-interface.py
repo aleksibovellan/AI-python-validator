@@ -1,7 +1,7 @@
 # AI/ML Trained Python Code Validator with Web Interface
 
-# Code: Aleksi Bovellan
-# Gradio interface: Satu Pohjonen
+# Code: Aleksi Bovellan (2024)
+# Gradio Web Interface: Satu Pohjonen (2024)
 
 
 # AI/ML MODEL AND MAIN GRADIO WEB INTERFACE SCRIPT
