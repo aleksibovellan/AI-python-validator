@@ -1,7 +1,6 @@
 # AI/ML Trained Python Code Validator with Web Interface
 
 # Code: Aleksi Bovellan
-# Gradio interface: Satu Pohjonen
 
 
 # AI/ML MODEL TRAINING SCRIPT FOR TRAINING A NEW INTELLIGENCE FOLDER ("RESULTS")
