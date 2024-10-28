@@ -60,7 +60,7 @@ python3 ai-code-validator-training.py
 
 5) Run the Gradio interface script. The Gradio interface script will load the trained model, the trained database, and finally open a localhost url for your web browser. The provided web page will act as the user-interface for interacting with this trained python code validator model, which will be used to check if your provided Python code has obvious errors in it.
 
-python3 ai-group-thinkers_code_validator_interface.py
+python3 ai-code-validator-interface.py
 
 
 # Editing the training script - sample_size value time estimate benchmarks:
