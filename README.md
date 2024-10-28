@@ -10,6 +10,12 @@
 
 **Python extensions:** gradio, transformers, torch, datasets, numpy
 
+---
+
+![screenshot](https://github.com/user-attachments/assets/ca7725c8-0ad3-49dd-8687-5af8c8207cdf)
+
+---
+
 
 # INCLUDED FILES AND FOLDERS:
 
@@ -51,16 +57,16 @@ EXAMPLE 1:
 
 Keep the existing "results" folder in the same directory, and just run:
 
-python3 ai-group-thinkers_code_validator_interface.py
+python3 ai-code-validator-interface.py
 
 
 OR EXAMPLE 2:
 
 Move the pre-provided "results" intelligence folder to somewhere else, to keep it as a backup, and run:
 
-python3 ai-group-thinkers_code_validator_training.py
+python3 ai-code-validator-training.py
 
-python3 ai-group-thinkers_code_validator_interface.py
+python3 ai-code-validator-interface.py
 
 
 # MODEL TRAINING (NOT NECESSARILY NEEDED - INTELLIGENCE ALREADY PROVIDED :)
@@ -80,7 +86,7 @@ However, if you DO want to train your own database from scratch:
 5) Run the training script and let it finish. In the end it will evaluate its results:
 
 
-python3 ai-group-thinkers_code_validator_training.py
+python3 ai-code-validator-training.py
 
 
 (There is more info about the desired training results written below.)
@@ -114,3 +120,15 @@ Classification result for code_snippet_2: [{'label': 'LABEL_0', 'score': 0.99989
 # CPU/GPU COMPABILITY
 
 The training script runs using CPU to work universally on Macs and PCs without specific GPU support problems, like NVIDIA, etc. However, MacBooks (like M1 Air) still automatically choose to use their own GPU, as they figure out it will give the best performance.
+
+---
+
+# Training Script Flowchart
+
+![training-flowchart](https://github.com/user-attachments/assets/1a2bd6c7-fb15-4698-8634-0b65280dad9b)
+
+---
+
+# Gradio Interface Script Flowchart
+
+![interface-flowchart](https://github.com/user-attachments/assets/4c81e1ae-4ad6-4490-984f-5da9030a3502)
