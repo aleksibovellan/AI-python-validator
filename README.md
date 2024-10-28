@@ -1,5 +1,7 @@
 # AI/ML Trained Python Code Validator with Gradio Web Interface
 
+**Human-user interacts through a Gradio Web Interface to check for syntax errors in input Python code examples. AI/ML model uses its own training for intelligence.**
+
 **Code:** Aleksi Bovellan (2024)
 
 **Gradio Web Interface:** Satu Pohjonen (2024)
