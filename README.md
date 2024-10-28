@@ -1,4 +1,4 @@
-# AI/ML Trained Python Code Validator with Web Interface
+# AI/ML Trained Python Code Validator with Gradio Web Interface
 
 **Code:** Aleksi Bovellan (2024)
 
