@@ -2,7 +2,7 @@
 
 **Code:** Aleksi Bovellan (2024)
 
-**Gradio interface:** Satu Pohjonen (2024)
+**Gradio Web Interface:** Satu Pohjonen (2024)
 
 **Technologies:** microsoft/codebert-base, Gradio Web Interface, Python 3.10
 
