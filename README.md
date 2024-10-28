@@ -1,10 +1,10 @@
 # AI/ML Trained Python Code Validator with Web Interface
 
-**Code:** Aleksi Bovellan
+**Code:** Aleksi Bovellan (2024)
 
-**Gradio interface:** Satu Pohjonen
+**Gradio interface:** Satu Pohjonen (2024)
 
-**Technologies:** microsoft/codebert-base, Gradio interface, Python 3.10
+**Technologies:** microsoft/codebert-base, Gradio Web Interface, Python 3.10
 
 **Dataset:** code_search_net python + automatically created incorrect code examples using corruption methods
 
@@ -103,3 +103,5 @@ The training script runs using CPU to work universally on Macs and PCs without s
 # Gradio Interface Script Flowchart
 
 ![interface-flowchart](https://github.com/user-attachments/assets/4c81e1ae-4ad6-4490-984f-5da9030a3502)
+
+---
