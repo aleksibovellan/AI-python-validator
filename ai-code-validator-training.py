@@ -1,6 +1,6 @@
 # AI/ML Trained Python Code Validator with Web Interface
 
-# Code: Aleksi Bovellan
+# Code: Aleksi Bovellan (2024)
 
 
 # AI/ML MODEL TRAINING SCRIPT FOR TRAINING A NEW INTELLIGENCE FOLDER ("RESULTS")
