@@ -19,11 +19,9 @@
 
 # INCLUDED FILES AND FOLDERS:
 
-- "ai-code-validator-interface.py" - the easy main Gradio web interface script for starting up the actual trained model and the webpage user-interface
-- Folder "results" - this is the already prepared training intelligence, it is ready to be used as-is
-- "model_training_results.txt" - The log output of the training results from the creation of the included "results" intelligence folder
+- "ai-code-validator-training.py" - an automatic training script to create your own new "results" folder and build new training intelligence into it
 
-- Optional: "ai-code-validator-training.py" - an automatic training script to create your own new "results" folder and build new training intelligence into it
+- "ai-code-validator-interface.py" - the easy main Gradio web interface script for starting up the actual trained model and the webpage user-interface
 
 - "README.md" - this file for instructions
 
@@ -49,47 +47,20 @@ pip install gradio transformers torch datasets numpy
 
 # MAIN USAGE:
 
-Just run the main Gradio interface script to automatically start the model and web interface, if a "results" folder already exists in the same directory - and that's it!
+1) Open and edit the training script:
 
-The Gradio interface script will load the trained model, the trained database, and finally open a localhost url for your web browser. The provided web page will act as the user-interface for interacting with this trained python code validator model, which will be used to check if your provided Python code has obvious errors in it.
+2) In the beginning of the training script, change the "sample_size" parameter to the size you want - it affects the time your automated training process will eventually take. Longer training time results into a better model and more accurate prediction and confidence. There is more info about the suggested size values written into the training script itself and also to the end of this README file.
 
-EXAMPLE 1:
+3) Save the training script if it was edited
 
-Keep the existing "results" folder in the same directory, and just run:
-
-python3 ai-code-validator-interface.py
-
-
-OR EXAMPLE 2:
-
-Move the pre-provided "results" intelligence folder to somewhere else, to keep it as a backup, and run:
-
-python3 ai-code-validator-training.py
-
-python3 ai-code-validator-interface.py
-
-
-# MODEL TRAINING (NOT NECESSARILY NEEDED - INTELLIGENCE ALREADY PROVIDED :)
-
-The folder called "results" has already been provided as a ready-to-go trained database, so NO EXTRA learning is required to run the model and main web interface. The "results" folder has to be located in the same directory as the main Gradio interface script, because it depends on the folder existing.
-
-However, if you DO want to train your own database from scratch:
-
-1) Move the pre-provided "results" folder to somewhere else, to keep it as a backup
-
-2) Open and edit the training script:
-
-3) In the beginning of the training script, change the "sample_size" parameter to the size you want - it affects the time your automated training process will eventually take. Longer training time results into a better model and more accurate prediction and confidence. There is more info about the suggested size values written into the training script itself and also to the end of this README file.
-
-4) Save the training script if it was edited
-
-5) Run the training script and let it finish. In the end it will evaluate its results:
-
+4) Run the training script and let it finish. In the end it will evaluate its results. There is more info about the desired training results written down below.
 
 python3 ai-code-validator-training.py
 
 
-(There is more info about the desired training results written below.)
+5) Run the Gradio interface script. The Gradio interface script will load the trained model, the trained database, and finally open a localhost url for your web browser. The provided web page will act as the user-interface for interacting with this trained python code validator model, which will be used to check if your provided Python code has obvious errors in it.
+
+python3 ai-group-thinkers_code_validator_interface.py
 
 
 # Editing the training script - sample_size value time estimate benchmarks:
