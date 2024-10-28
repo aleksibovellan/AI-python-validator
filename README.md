@@ -4,7 +4,7 @@
 
 **Gradio interface:** Satu Pohjonen
 
-**Technologies:** microsoft/codebert-base, Gradio interface, Python3
+**Technologies:** microsoft/codebert-base, Gradio interface, Python 3.10
 
 **Dataset:** code_search_net python + automatically created incorrect code examples using corruption methods
 
